@@ -13,7 +13,7 @@ export default function Hero() {
         <img
           src="/images/hero-water.jpg"
           alt=""
-          className="w-full h-full object-cover opacity-25"
+          className="w-full h-full object-cover opacity-95"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/80 to-navy" />
       </div>
@@ -77,9 +77,9 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Price highlight */}
+        {/* Price highlight - bg-water - */}
         <div className="animate-fade-in-up animation-delay-600 mt-14 inline-flex items-center gap-3 px-6 py-3 bg-water/10 border border-water/20 rounded-2xl">
-          <div className="flex items-center justify-center w-10 h-10 bg-water rounded-xl">
+          <div className="flex items-center justify-center w-10 h-10  rounded-xl">
             <span className="text-lg font-bold text-white">R1</span>
           </div>
           <div className="text-left">
