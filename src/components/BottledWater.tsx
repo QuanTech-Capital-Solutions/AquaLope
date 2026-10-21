@@ -13,29 +13,29 @@ interface WaterProduct {
 
 const products: WaterProduct[] = [
   {
-    sizes: '330ml / 500ml',
+    sizes: '500ml',
     label: 'On-the-Go',
     description: 'Perfect for sports, school, and pocket-sized hydration. Ideal for quick refreshment anywhere.',
-    priceRange: 'From R5',
+    priceRange: 'From R6',
     tags: ['Portable', 'Individual'],
   },
   {
-    sizes: '750ml / 1.5L',
+    sizes: '1.5L',
     label: 'Daily Essential',
     description: 'Your everyday hydration companion. Great for the desk, gym bag, or household use.',
-    priceRange: 'From R8',
+    priceRange: 'From R10',
     tags: ['Everyday', 'Best Seller'],
-    popular: true,
   },
   {
     sizes: '5L Bottle',
     label: 'Family Pack',
     description: 'Convenient family-size purified water. Perfect for cooking, drinking, and small gatherings.',
-    priceRange: 'From R20',
+    priceRange: 'From R25',
     tags: ['Family', 'Value'],
+    popular: true,
   },
   {
-    sizes: '20L Dispenser',
+    sizes: '10L Bottle',
     label: 'Home & Office',
     description: 'Large format for water dispensers. Keep your home or office fully stocked with pure water.',
     priceRange: 'From R35',
@@ -60,7 +60,7 @@ export default function BottledWater() {
             Our Bottled Water Range
           </h2>
           <p className="mt-4 text-lg text-slate-500 max-w-2xl mx-auto">
-            From on-the-go bottles to office dispensers — pure, reverse osmosis filtered water in every size you need.
+            From on-the-go bottles to home and office packs — pure, reverse osmosis filtered water in every size you need.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ export default function BottledWater() {
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 bg-navy rounded-2xl border border-slate-800">
             <div className="text-center sm:text-left">
               <p className="text-base font-semibold text-offwhite">Need bulk supply for events or business?</p>
-              <p className="text-sm text-slate-400 mt-1">Custom pricing available for orders of 50+ units. Contact us for a quote.</p>
+              <p className="text-sm text-slate-400 mt-1">Bulk orders available. Contact us for a quote.</p>
             </div>
             <a
               href={WHATSAPP_LINK}

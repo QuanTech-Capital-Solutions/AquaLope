@@ -11,7 +11,7 @@ const features = [
     icon: Sparkles,
     title: 'Hygienic Refill Stations',
     description:
-      'Our Praktiseer station is regularly sanitized and maintained to medical-grade cleanliness standards. Your health is our priority.',
+      'Our Praktiseer station is regularly sanitised and maintained to medical-grade cleanliness standards. Your health is our priority.',
   },
   {
     icon: Users,
@@ -71,7 +71,7 @@ export default function WhyChoose() {
             { value: 'R1', label: 'Per Litre' },
             { value: '7', label: 'Stage Filtration' },
             { value: '99.9%', label: 'Purity Rate' },
-            { value: '6/7', label: 'Days Open' },
+            { value: '7', label: 'Days Open' },
           ].map((stat) => (
             <div key={stat.label} className="text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
               <p className="text-3xl sm:text-4xl font-extrabold text-water">{stat.value}</p>

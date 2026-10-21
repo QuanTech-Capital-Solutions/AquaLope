@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2.5 text-sm text-slate-400">
                 <MapPin className="w-4 h-4 text-slate-500 flex-shrink-0 mt-0.5" />
-                Praktiseer Township, Burgersfort, Limpopo
+                ERF 2760, Police Station Street, Praktiseer Township, Burgersfort, 1150
               </li>
             </ul>
           </div>
@@ -89,7 +89,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="py-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-500">
-            © {year} AquaLope Water Purification. All rights reserved.
+            © {year} AquaLope. All rights reserved.
           </p>
           <p className="text-xs text-slate-600">
             Praktiseer Township, Burgersfort, Limpopo, South Africa

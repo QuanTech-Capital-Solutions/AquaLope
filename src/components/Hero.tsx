@@ -24,14 +24,14 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
-        {/* Pill badge */}
+        {/* Pill badge 
         <div className="animate-fade-in-up inline-flex items-center gap-2 px-4 py-1.5 bg-water/10 border border-water/20 rounded-full mb-8">
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full rounded-full bg-water opacity-75 animate-ping" />
             <span className="relative inline-flex rounded-full h-2 w-2 bg-water" />
           </span>
           <span className="text-sm font-medium text-water">Now Serving Burgersfort & Surrounds</span>
-        </div>
+        </div>*/}
 
         {/* Headline */}
         <h1 className="animate-fade-in-up animation-delay-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-offwhite leading-tight tracking-tight">
@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
 
         {/* Subheadline */}
-        <p className="animate-fade-in-up animation-delay-400 mt-6 text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+        <p className="animate-fade-in-up animation-delay-400 mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
           Premium purified water refills at just R1 per litre. Clean, safe, and cold water for your home, business, or event.
         </p>
 
@@ -65,7 +65,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-8 py-4 bg-whatsapp hover:bg-whatsapp-dark text-white font-semibold rounded-full transition-all duration-200 shadow-lg shadow-whatsapp/20 hover:shadow-xl hover:shadow-whatsapp/30 text-base"
           >
-            <MessageCircle className="w-5 h-5" />
+            {/*<MessageCircle className="w-5 h-5" />*/}
             Order via WhatsApp
           </a>
           <a
@@ -73,7 +73,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2.5 px-8 py-4 bg-white/5 hover:bg-white/10 border border-slate-600 hover:border-slate-500 text-offwhite font-semibold rounded-full transition-all duration-200 text-base"
           >
             View Bottled Pricing
-            <ArrowDown className="w-4 h-4" />
+            {/*<ArrowDown className="w-4 h-4" />*/}
           </a>
         </div>
 

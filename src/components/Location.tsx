@@ -58,9 +58,13 @@ export default function Location() {
                 <div>
                   <h3 className="text-base font-bold text-offwhite">Our Address</h3>
                   <p className="mt-1 text-sm text-slate-400 leading-relaxed">
+                    ERF 2760<br />
+                    Police Station Street<br />
                     Praktiseer Township<br />
-                    Burgersfort, Limpopo Province<br />
-                    South Africa, 1150
+                    Burgersfort<br />
+                    1150<br />
+                    <br />
+                    Next to Hyrdo Petrol Station
                   </p>
                 </div>
               </div>
@@ -101,7 +105,7 @@ export default function Location() {
                   <div className="mt-2 space-y-1.5">
                     <p className="text-sm text-slate-400 flex items-center gap-2">
                       <Phone className="w-3.5 h-3.5 text-slate-500" />
-                      +27 (0) 00 000 0000
+                      +27 (0) 73 945 0000
                     </p>
                     <p className="text-sm text-slate-400 flex items-center gap-2">
                       <Mail className="w-3.5 h-3.5 text-slate-500" />

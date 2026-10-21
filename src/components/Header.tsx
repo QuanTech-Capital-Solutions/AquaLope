@@ -22,8 +22,10 @@ export default function Header() {
             <div className="relative flex items-center justify-center w-9 h-9 rounded-lg bg-water/10 border border-water/20 group-hover:bg-water/20 transition-colors">
               <Droplets className="w-5 h-5 text-water" />
             </div>
-            <span className="text-xl font-bold text-offwhite tracking-tight">
-              Aqua<span className="text-water">Lope</span>
+            <span className="text-xl md:text-2xl font-serif tracking-[0.01em] select-none uppercase " 
+            style={{ fontFamily: '"Times New Roman", Times, Georgia, serif' }}>
+              <span style={{ color: '#0072CE' }} >Aqua</span>
+              <span style={{ color: '#009639' }} >Lope</span>
             </span>
           </a>
 
@@ -48,7 +50,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-whatsapp hover:bg-whatsapp-dark text-white text-sm font-semibold rounded-full transition-all duration-200 shadow-sm hover:shadow-md hover:shadow-whatsapp/20"
             >
-              <MessageCircle className="w-4 h-4" />
+              {/*<MessageCircle className="w-4 h-4" />*/}
               WhatsApp Us
             </a>
           </div>
@@ -85,7 +87,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-whatsapp hover:bg-whatsapp-dark text-white text-sm font-semibold rounded-full transition-colors"
               >
-                <MessageCircle className="w-4 h-4" />
+                {/*<MessageCircle className="w-4 h-4" />*/}
                 WhatsApp Us
               </a>
             </div>
