@@ -1,7 +1,7 @@
 import { MapPin, Clock, Phone, Mail, Navigation, MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/27000000000?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20get%20directions!';
-const MAPS_LINK = 'https://maps.google.com/?q=Praktiseer+Township+Burgersfort+Limpopo+South+Africa';
+const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20get%20directions!';
+const MAPS_LINK = 'https://www.google.com/maps/place/AquaLope/@-24.5790585,30.3216221,17z/data=!3m1!4b1!4m6!3m5!1s0x1ec3d3792dc2fc53:0xc3be5781c3bfb6dc!8m2!3d-24.5790585!4d30.3216221!16s%2Fg%2F11z_xp6sp1?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D'; 
 
 export default function Location() {
   return (
@@ -30,21 +30,14 @@ export default function Location() {
           <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-navy-mid h-80 lg:h-auto lg:min-h-[400px]">
             <iframe
               title="AquaLope Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28948.041834!2d30.18!3d-24.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eba0d67aa57c5c7%3A0xrandom!2sPraktiseer%2C+Burgersfort!5e0!3m2!1sen!2sza!4v1700000000000"
-              className="absolute inset-0 w-full h-full opacity-70"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.2936933263536!2d30.321622100000003!3d-24.579058500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec3d3792dc2fc53%3A0xc3be5781c3bfb6dc!2sAquaLope!5e0!3m2!1sen!2sza!4v1793706761713!5m2!1sen!2sza"
+              className="absolute inset-0 w-full h-full opacity-90"
               style={{ border: 0, filter: 'grayscale(0.3)' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            {/* Fallback overlay if iframe doesn't load */}
-            <div className="absolute inset-0 flex items-center justify-center bg-navy-mid/80 pointer-events-none">
-              <div className="text-center">
-                <MapPin className="w-12 h-12 text-water mx-auto mb-3" />
-                <p className="text-lg font-semibold text-offwhite">Praktiseer Township</p>
-                <p className="text-sm text-slate-400">Burgersfort, Limpopo</p>
-              </div>
-            </div>
+            
           </div>
 
           {/* Info Cards */}
@@ -105,11 +98,11 @@ export default function Location() {
                   <div className="mt-2 space-y-1.5">
                     <p className="text-sm text-slate-400 flex items-center gap-2">
                       <Phone className="w-3.5 h-3.5 text-slate-500" />
-                      +27 (0) 73 945 0000
+                      +27 (0) 73 943 2150
                     </p>
                     <p className="text-sm text-slate-400 flex items-center gap-2">
                       <Mail className="w-3.5 h-3.5 text-slate-500" />
-                      info@aqualope.co.za
+                      admin@aqualope.co.za
                     </p>
                   </div>
                 </div>

@@ -7,7 +7,7 @@ import Location from './components/Location';
 import Footer from './components/Footer';
 import { MessageCircle } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/27000000000?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20place%20an%20order!';
+const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20place%20an%20order!';
 
 export default function App() {
   return (

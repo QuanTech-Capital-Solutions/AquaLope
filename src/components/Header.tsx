@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, MessageCircle, Droplets } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/27000000000?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20place%20an%20order!';
+const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20place%20an%20order!';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -19,8 +19,12 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-18">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <div className="relative flex items-center justify-center w-9 h-9 rounded-lg bg-water/10 border border-water/20 group-hover:bg-water/20 transition-colors">
-              <Droplets className="w-5 h-5 text-water" />
+            <div className="relative flex items-center justify-center w-9 h-10 rounded-lg bg-water/10 group-hover:bg-water/20 transition-colors overflow-hidden">
+              <img 
+                src="/public/AquaLope Logo.png" 
+                alt="Logo" 
+                className="w-full h-full object-fill" 
+              />
             </div>
             <span className="text-xl md:text-2xl font-serif tracking-[0.01em] select-none uppercase " 
             style={{ fontFamily: '"Times New Roman", Times, Georgia, serif' }}>

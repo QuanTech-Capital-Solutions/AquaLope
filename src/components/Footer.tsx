@@ -1,6 +1,6 @@
 import { Droplets, MessageCircle, Phone, Mail, MapPin } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/27000000000?text=Hi%20AquaLope!';
+const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope!';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -20,11 +20,17 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
-              <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-water/10 border border-water/20">
-                <Droplets className="w-4 h-4 text-water" />
+              <div className="relative flex items-center justify-center w-9 h-10 rounded-lg bg-water/10 group-hover:bg-water/20 transition-colors overflow-hidden">
+                <img 
+                  src="/public/AquaLope Logo.png" 
+                  alt="Logo" 
+                  className="w-full h-full object-fill" 
+                />
               </div>
-              <span className="text-lg font-bold text-offwhite tracking-tight">
-                Aqua<span className="text-water">Lope</span>
+              <span className="text-xl md:text-2xl font-serif tracking-[0.01em] select-none uppercase " 
+              style={{ fontFamily: '"Times New Roman", Times, Georgia, serif' }}>
+                <span style={{ color: '#0072CE' }} >Aqua</span>
+                <span style={{ color: '#009639' }} >Lope</span>
               </span>
             </a>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
@@ -55,11 +61,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Phone className="w-4 h-4 text-slate-500 flex-shrink-0" />
-                +27 (0) 00 000 0000
+                +27 (0) 73 943 2150
               </li>
               <li className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Mail className="w-4 h-4 text-slate-500 flex-shrink-0" />
-                info@aqualope.co.za
+                admin@aqualope.co.za
               </li>
               <li className="flex items-start gap-2.5 text-sm text-slate-400">
                 <MapPin className="w-4 h-4 text-slate-500 flex-shrink-0 mt-0.5" />

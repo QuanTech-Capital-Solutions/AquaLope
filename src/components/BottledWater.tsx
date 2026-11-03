@@ -1,6 +1,6 @@
 import { MessageCircle, Droplets, Package } from 'lucide-react';
 
-const WHATSAPP_LINK = 'https://wa.me/27000000000?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20inquire%20about%20bulk%20pricing!';
+const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20inquire%20about%20bulk%20pricing!';
 
 interface WaterProduct {
   sizes: string;
