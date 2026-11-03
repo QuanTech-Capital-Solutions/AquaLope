@@ -19,9 +19,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-18">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <div className="relative flex items-center justify-center w-9 h-10 rounded-lg bg-water/10 group-hover:bg-water/20 transition-colors overflow-hidden">
+            <div className="relative flex items-center justify-center w-9 h-11 rounded-lg transition-colors overflow-hidden">
               <img 
-                src="/public/AquaLope Logo.png" 
+                src="/AquaLope Logo.png" 
                 alt="Logo" 
                 className="w-full h-full object-fill" 
               />

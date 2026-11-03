@@ -20,9 +20,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
-              <div className="relative flex items-center justify-center w-9 h-10 rounded-lg bg-water/10 group-hover:bg-water/20 transition-colors overflow-hidden">
+              <div className="relative flex items-center justify-center w-9 h-11 rounded-lg transition-colors overflow-hidden">
                 <img 
-                  src="/public/AquaLope Logo.png" 
+                  src="/AquaLope Logo.png" 
                   alt="Logo" 
                   className="w-full h-full object-fill" 
                 />
