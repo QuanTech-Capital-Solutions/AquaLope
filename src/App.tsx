@@ -6,6 +6,7 @@ import WhyChoose from './components/WhyChoose';
 import Location from './components/Location';
 import Footer from './components/Footer';
 import { MessageCircle } from 'lucide-react';
+import ScrollSection from './components/ScrollSection.jsx';
 
 const WHATSAPP_LINK = 'https://wa.me/27739432150?text=Hi%20AquaLope%2C%20I%27d%20like%20to%20place%20an%20order!';
 
@@ -14,11 +15,21 @@ export default function App() {
     <div className="min-h-screen bg-navy font-sans antialiased">
       <Header />
       <main>
-        <Hero />
-        <RefillStation />
-        <BottledWater />
-        <WhyChoose />
-        <Location />
+        <ScrollSection>
+          <Hero />
+        </ScrollSection>
+        <ScrollSection>
+          <RefillStation />
+        </ScrollSection>
+        <ScrollSection>
+          <BottledWater />
+        </ScrollSection>
+        <ScrollSection>
+          <WhyChoose />
+        </ScrollSection>
+        <ScrollSection>
+          <Location />
+        </ScrollSection>
       </main>
       <Footer />
 
