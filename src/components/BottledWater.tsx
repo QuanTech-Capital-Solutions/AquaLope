@@ -25,6 +25,7 @@ const products: WaterProduct[] = [
     description: 'Your everyday hydration companion. Great for the desk, gym bag, or household use.',
     priceRange: 'From R10',
     tags: ['Everyday', 'Best Seller'],
+    popular: true,
   },
   {
     sizes: '5L Bottle',
@@ -32,15 +33,7 @@ const products: WaterProduct[] = [
     description: 'Convenient family-size purified water. Perfect for cooking, drinking, and small gatherings.',
     priceRange: 'From R25',
     tags: ['Family', 'Value'],
-    popular: true,
-  },
-  {
-    sizes: '10L Bottle',
-    label: 'Home & Office',
-    description: 'Large format for water dispensers. Keep your home or office fully stocked with pure water.',
-    priceRange: 'From R35',
-    tags: ['Dispenser', 'Bulk'],
-  },
+  }
 ];
 
 export default function BottledWater() {
@@ -65,7 +58,7 @@ export default function BottledWater() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
             <div
               key={product.sizes}
