@@ -73,9 +73,9 @@ export default function Location() {
                   <h3 className="text-base font-bold text-offwhite">Operating Hours</h3>
                   <div className="mt-3 space-y-2">
                     {[
-                      { day: 'Monday – Friday', time: '07:00 – 18:00' },
-                      { day: 'Saturday', time: '07:00 – 16:00' },
-                      { day: 'Sunday', time: '08:00 – 14:00' },
+                      { day: 'Monday – Friday', time: '08:30 – 19:00' },
+                      { day: 'Saturday', time: '09:00 – 17:00' },
+                      { day: 'Sunday', time: '09:00 – 15:00' },
                     ].map((h) => (
                       <div key={h.day} className="flex items-center justify-between text-sm">
                         <span className="text-slate-400">{h.day}</span>
